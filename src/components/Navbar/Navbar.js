@@ -6,6 +6,8 @@ import CloseIcon from "@material-ui/icons/Close";
 import { ThemeContext } from "../../contexts/theme";
 import { projects, skills, contact } from "../../portfolio";
 import "./Navbar.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 const Navbar = () => {
   const [{ themeName, toggleTheme }] = useContext(ThemeContext);
@@ -20,11 +22,11 @@ const Navbar = () => {
         className="nav__list"
       >
         {projects.length ? (
-          <li className="nav__list-item">
+          <li className="nav__list-item text-capitalize">
             <a
               href="#projects"
               onClick={toggleNavList}
-              className="link link--nav"
+              className="link link--nav text-capitalize"
             >
               Projectos Feitos
             </a>
@@ -36,7 +38,7 @@ const Navbar = () => {
             <a
               href="#skills"
               onClick={toggleNavList}
-              className="link link--nav"
+              className="link link--nav text-capitalize"
             >
              Minhas Habilidades
             </a>
@@ -48,7 +50,7 @@ const Navbar = () => {
             <a
               href="#contact"
               onClick={toggleNavList}
-              className="link link--nav"
+              className="link link--nav text-capitalize"
             >
               Contacte-me
             </a>

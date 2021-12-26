@@ -4,23 +4,26 @@
 }
 
 .about__name {
+
   color: var(--clr-primary);
 }
 
 .about__role {
-  margin-top: 1.2em;
+  margin-top: 0.1em;
 }
 
 .about__desc {
   font-size: 1rem;
   max-width: 600px;
+  margin-top: 1em;
 }
 
-.about__desc,
 .about__contact {
-  margin-top: 2.4em;
+  margin-top: 1em;
 }
-
+.about__desc{
+  text-align: justify;
+}
 .about .link--icon {
   margin-right: 0.8em;
 }

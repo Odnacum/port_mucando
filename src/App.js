@@ -8,6 +8,7 @@ import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import "./App.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
   const [{ themeName }] = useContext(ThemeContext);

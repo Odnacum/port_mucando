@@ -7,8 +7,7 @@ const Contact = () => {
 // const cont=contact.map((conta)=>(conta));
   return (
     <section className="section contact center skills" id="contact">
-      <h2 className="section__title">Contacto e Endereço</h2>
-      <hr />
+      <h2 className="section__title border-bottom">Contacto e Endereço</h2>
       <h5 className="skill">
         <span type="button" className="btn btn--outline">
           Conctacto: {contact.map((contacto) => (contacto.phone))}

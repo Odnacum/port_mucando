@@ -1,6 +1,7 @@
 .nav__list {
   margin-right: 1.5em;
   display: flex;
+  text-transform:capitalize
 }
 .nav__list-item {
   margin-left: 1.5em;
