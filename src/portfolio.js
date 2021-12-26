@@ -29,7 +29,7 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: "Forum de discussão",
+    name: "Forúm de discussão",
     description:
       "Desenvolvido para o uso na empresa LinkTech, para o uso interno do seu pessoal no que tange a descussão de conteudos",
     liguagens: ["Codeigniter", "JavaScript", "MySql"],
@@ -39,7 +39,8 @@ const projects = [
   {
     name: "Sistema de COVID-19 da Universidade Zambeze",
     description:
-      "Desenvolvido para o uso na Universidade Zambeze, para o registo e controlo de casos de COVID-19!np",
+      "Desenvolvido para o uso na Universidade Zambeze," +
+      "para o registo e controlo de casos de COVID-19!",
     liguagens: ["Codeigniter", "JavaScript", "MySql", "CSS"],
     sourceCode: "#",
     livePreview: "https://covid19.uzcetic.ac.mz/",
@@ -72,6 +73,7 @@ const projects = [
 const skills = [
   "Angular",
   "CI/Codeigniter",
+  "C++",
   "CSS",
   "Flutter",
   "Git",

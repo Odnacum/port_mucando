@@ -1,4 +1,12 @@
 .contact {
-  flex-direction: column;
+  flex-direction: row;
 /*margin-bottom: 6%;*/
+
+}
+.skills>span{
+  max-width: 1100px;
+}
+.espacamento{
+  padding: 2%;
+  /*margin-left: 2%;*/
 }

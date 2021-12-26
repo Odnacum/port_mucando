@@ -7,14 +7,14 @@ const Skills = () => {
 
   return (
     <section className="section skills" id="skills">
-      <h2 className="section__title ">Habilidades</h2>
-      <ul className="skills__list">
+      <h2 className="section__title border-bottom border-top">Habilidades</h2>
+      <div className="row dif">
         {skills.map((skill) => (
-          <li key={uniqid()} className="skills__list-item btn btn--plain">
+          <div key={uniqid()} className="skills__list-item me-2 mt-2 btn btn--plain col-sm-3">
             {skill}
-          </li>
+          </div>
         ))}
-      </ul>
+      </div>
     </section>
   );
 };
