@@ -32,7 +32,7 @@ const projects = [
     name: "Forum de discussão",
     description:
       "Desenvolvido para o uso na empresa LinkTech, para o uso interno do seu pessoal no que tange a descussão de conteudos",
-    stack: ["CI", "JavaScript", "MySql"],
+    liguagens: ["Codeigniter", "JavaScript", "MySql"],
     sourceCode: "#",
     livePreview: "https://jogaraprender.linktec.co.mz/chat/",
   },
@@ -40,7 +40,7 @@ const projects = [
     name: "Sistema de COVID-19 da Universidade Zambeze",
     description:
       "Desenvolvido para o uso na Universidade Zambeze, para o registo e controlo de casos de COVID-19!np",
-    stack: ["CI", "JavaScript", "MySql", "CSS"],
+    liguagens: ["Codeigniter", "JavaScript", "MySql", "CSS"],
     sourceCode: "#",
     livePreview: "https://covid19.uzcetic.ac.mz/",
   },
@@ -48,21 +48,21 @@ const projects = [
     name: "QUIZ",
     description:
       "Desenvolvido para a empresa LinkTech, a aplicacao consome dados de um API Restfull",
-    stack: ["HTML", "JavaScript", "CSS", "API"],
+    liguagens: ["HTML", "JavaScript", "CSS", "API"],
     sourceCode: "#",
     livePreview: "https://jogaraprender.linktec.co.mz/Quiz_quiz/",
   },
   {
     name: "Aprender e Jogar",
     description: "Aplicação Mobile Desenvolvido para a empresa LinkTech",
-    stack: "Flutter",
+    liguagens: "Flutter",
     sourceCode: "#",
     livePreview: "https://jogaraprender.linktec.co.mz/jogaraprender.apk",
   },
   {
     name: "API Springboot",
     description: "Desenvolvida em java Spring boot",
-    stack: ["Java", "Spring boot"],
+    liguagens: ["Java", "Spring boot"],
     sourceCode: "https://github.com/Mucando/Backend_Developer_Challenge.git",
     livePreview:
       "https://backend-dev-challenge.herokuapp.com/api/v1/paises/listarpaises",
