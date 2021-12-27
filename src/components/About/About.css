@@ -1,8 +1,14 @@
 .about {
   flex-direction: column;
   margin-top: 3em;
+  /*background-image: url("/src/components/img/back.jpg")!important;*/
+  /*background-repeat: no-repeat!important;*/
 }
+.imgx{
+  max-height: 150px;
+  max-width: 140px;
 
+}
 .about__name {
 
   color: var(--clr-primary);
