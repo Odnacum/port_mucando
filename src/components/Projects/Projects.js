@@ -4,9 +4,11 @@ import LaunchIcon from "@material-ui/icons/Launch";
 import { projects } from "../../portfolio";
 import "../ProjectContainer/ProjectContainer.css";
 import "./Projects.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Projects = () => {
   if (!projects.length) return null;
+  let xx;
   return (
     <section id="projects" className="section projects">
       <h2 className="section__title border-bottom border-top">Projectos feitos</h2>
@@ -14,10 +16,10 @@ const Projects = () => {
         {projects.map((project) => (
           <div className="project">
             <h3>{project.name}</h3>
-            <p className="project__description">{project.description}</p>
-            {/* <ul className="project__stack">
-            {project.liguagens &&
-            project.liguagens.map((ling) => (
+            <p className="project__description text">{project.description}</p>
+             {/* <ul className="project__stack">
+               {
+                 project.liguagens &&  project.liguagens.map((ling) => (
               <li key={uniqid()} className="project__stack-item">
                 {ling}
               </li>

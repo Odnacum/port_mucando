@@ -31,7 +31,7 @@ const projects = [
   {
     name: "Forúm de discussão",
     description:
-      "Desenvolvido para o uso na empresa LinkTech, para o uso interno do seu pessoal no que tange a descussão de conteudos",
+      "Desenvolvi a App para a empresa LinkTech, para o uso interno do seu pessoal no que tange a descussão de conteúdos",
     liguagens: ["Codeigniter", "JavaScript", "MySql"],
     sourceCode: "#",
     livePreview: "https://jogaraprender.linktec.co.mz/chat/",
@@ -39,8 +39,8 @@ const projects = [
   {
     name: "Sistema de COVID-19 da Universidade Zambeze",
     description:
-      "Desenvolvido para o uso na Universidade Zambeze," +
-      "para o registo e controlo de casos de COVID-19!",
+      "Desenvolvi a App para a Universidade Zambeze," +
+      " para o registo e controlo de casos de COVID-19!",
     liguagens: ["Codeigniter", "JavaScript", "MySql", "CSS"],
     sourceCode: "#",
     livePreview: "https://covid19.uzcetic.ac.mz/",
@@ -48,25 +48,33 @@ const projects = [
   {
     name: "QUIZ",
     description:
-      "Desenvolvido para a empresa LinkTech, a aplicacao consome dados de um API Restfull",
+      "Desenvolvi a App para a LinkTech, a aplicação consome dados(Perguntas e respostas) de uma API Restfull",
     liguagens: ["HTML", "JavaScript", "CSS", "API"],
     sourceCode: "#",
     livePreview: "https://jogaraprender.linktec.co.mz/Quiz_quiz/",
   },
   {
     name: "Aprender e Jogar",
-    description: "Aplicação Mobile Desenvolvido para a empresa LinkTech",
+    description: "Aplicação Mobile Desenvolvida para a empresa LinkTech",
     liguagens: "Flutter",
     sourceCode: "#",
     livePreview: "https://jogaraprender.linktec.co.mz/jogaraprender.apk",
   },
   {
-    name: "API Springboot",
-    description: "Desenvolvida em java Spring boot",
+    name: "API Springboot Restfull",
+    description: "Desenvolvi em java Spring boot, onde lista paises(GET), adiciona(POST), remove(DELETE) e atualiza(PATCH,PUT)",
     liguagens: ["Java", "Spring boot"],
     sourceCode: "https://github.com/Mucando/Backend_Developer_Challenge.git",
     livePreview:
       "https://backend-dev-challenge.herokuapp.com/api/v1/paises/listarpaises",
+  },
+  {
+    name: "API Quiz Restfull",
+    description: "Desenvolvi em Codeingiter para para fornecer dados como perguntas, respostas de múltiplas escolhas, ",
+    liguagens: ["Java", "Spring boot"],
+    sourceCode: "#",
+    livePreview:
+      "#",
   },
 ];
 
