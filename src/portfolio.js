@@ -32,7 +32,7 @@ const projects = [
     name: "Forúm de discussão",
     description:
       "Desenvolvi a App para a empresa LinkTech, para o uso interno do seu pessoal no que tange a descussão de conteúdos",
-    liguagens: ["Codeigniter", "JavaScript", "MySql"],
+    liguagens: ["Codeigniter", "JavaScript", "MySql","PHP"],
     sourceCode: "#",
     livePreview: "https://jogaraprender.linktec.co.mz/chat/",
   },
@@ -41,7 +41,7 @@ const projects = [
     description:
       "Desenvolvi a App para a Universidade Zambeze," +
       " para o registo e controlo de casos de COVID-19!",
-    liguagens: ["Codeigniter", "JavaScript", "MySql", "CSS"],
+    liguagens: ["Codeigniter", "JavaScript", "MySql", "CSS","PHP"],
     sourceCode: "#",
     livePreview: "https://covid19.uzcetic.ac.mz/",
   },
@@ -55,7 +55,7 @@ const projects = [
   },
   {
     name: "Aprender e Jogar",
-    description: "Aplicação Mobile Desenvolvida para a empresa LinkTech",
+    description: "Aplicação Mobile Desenvolvida para a empresa LinkTech que consome dados de uma API",
     liguagens: "Flutter",
     sourceCode: "#",
     livePreview: "https://jogaraprender.linktec.co.mz/jogaraprender.apk",
@@ -63,7 +63,7 @@ const projects = [
   {
     name: "API Springboot Restfull",
     description: "Desenvolvi em java Spring boot, onde lista paises(GET), adiciona(POST), remove(DELETE) e atualiza(PATCH,PUT)",
-    liguagens: ["Java", "Spring boot"],
+    liguagens: ["PHP", "Codeigniter"],
     sourceCode: "https://github.com/Mucando/Backend_Developer_Challenge.git",
     livePreview:
       "https://backend-dev-challenge.herokuapp.com/api/v1/paises/listarpaises",
