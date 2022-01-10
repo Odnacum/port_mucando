@@ -92,8 +92,8 @@ const skills = [
   "JavaScript",
   "Office Microsoft",
   "Oracle database",
-  "PHP",
-  "React","Instalação de redes de comunicação"
+  "PHP","Python",
+  "React","Montagem e Reparação de computadores","Instalação de redes de comunicação"
 ];
 
 const contact = [

@@ -29,7 +29,7 @@ const Contact = () => {
           Ligue-me
         </span>
           </a>
-        </div>
+        </div><br/>
         <div className="col-md-3">
           <a href={`mailto:${contact.map((contacto) => (contacto.email))}`}
              className="alert alert-primary me-1 border ">
