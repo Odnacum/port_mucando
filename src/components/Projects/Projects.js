@@ -8,7 +8,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Projects = () => {
   if (!projects.length) return null;
-  let xx;
   return (
     <section id="projects" className="section projects">
       <h2 className="section__title border-bottom border-top">Projectos feitos</h2>

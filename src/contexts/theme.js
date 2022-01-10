@@ -9,19 +9,21 @@ const ThemeProvider = ({ children }) => {
   useEffect(() => {
     const darkMediaQuery = window.matchMedia("(prefers-color-scheme: white)");
     setThemeName(darkMediaQuery.matches ? "white" : "light");
-    darkMediaQuery.addEventListener("change", (e) => {
+   /* darkMediaQuery.addEventListener("change", (e) => {
       setThemeName(e.matches ? "dark" : "light");
-    });
+    }); */
   }, []);
 
+/*
   const toggleTheme = () => {
     const name = themeName === "dark" ? "light" : "dark";
     localStorage.setItem("themeName", name);
     setThemeName(name);
   };
+*/
 
   return (
-    <ThemeContext.Provider value={[{ themeName, toggleTheme }]}>
+    <ThemeContext.Provider value={[{ themeName }]}>
       {children}
     </ThemeContext.Provider>
   );

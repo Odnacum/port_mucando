@@ -44,6 +44,17 @@ const Navbar = () => {
             </a>
           </li>
         ) : null}
+        {/* {liguas.length ? (
+          <li className="nav__list-item">
+            <a
+              href="#linguas"
+              onClick={toggleNavList}
+              className="link link--nav text-capitalize"
+            >
+             Línguas faladas
+            </a>
+          </li>
+        ) : null} */}
 
         {contact.length ? (
           <li className="nav__list-item">

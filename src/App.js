@@ -5,30 +5,30 @@ import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Skills from "./components/Skills/Skills";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
+// import Linguas from "./components/Linguas/Linguas";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import "./App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const App = () => {
-  const [{ themeName }] = useContext(ThemeContext);
+const App = () => 
+  // const [{ themeName }] = useContext(ThemeContext);
 
-  return (
-    // eslint-disable-next-line react/jsx-filename-extension
-    <div id="top" className={`${themeName} app`}>
+   (
+    <div id="top" className={`${"light"} app`}>
       <Header />
-
       <main>
         <About />
         <Skills />
-          <Projects />
+        <Projects />
+        {/* <Linguas/> */}
         <Contact />
       </main>
 
       <ScrollToTop />
       <Footer />
     </div>
-  );
-};
+  )
+;
 
 export default App;

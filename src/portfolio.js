@@ -93,7 +93,7 @@ const skills = [
   "Office Microsoft",
   "Oracle database",
   "PHP",
-  "React",
+  "React","Instalação de redes de comunicação"
 ];
 
 const contact = [
@@ -106,4 +106,4 @@ const contact = [
   },
 ];
 
-export { header, about, projects, skills, contact };
+export { header, about, projects, skills, contact};
